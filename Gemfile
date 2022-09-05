@@ -11,6 +11,10 @@ gem "activerecord", "~> 6.1"
 # Configures common Rake tasks for working with Active Record
 # https://github.com/sinatra-activerecord/sinatra-activerecord
 gem "sinatra-activerecord"
+gem "puma"
+gem "thin"
+gem "falcon"
+gem "webrick"
 
 # Rack middleware. Used specifically for parsing the request body into params.
 # https://github.com/rack/rack-contrib
